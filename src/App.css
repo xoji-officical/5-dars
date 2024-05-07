@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  --main-bg: #fff;
+}
+.darkmode{
+  --main-bg: #000;
+}
+
+body {
+  background: var(--main-bg) ;
+}
+.btn{
+  background-color: #e9e9e9;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  
+}
